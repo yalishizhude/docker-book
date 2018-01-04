@@ -6,4 +6,5 @@
 * [镜像与仓库](jing-xiang-yu-cang-ku.md)
 * [创建容器1](chuang-jian-rong-qi-1.md)
 * [创建容器2](chuang-jian-rong-qi-2.md)
+* [操作容器](cao-zuo-rong-qi.md)
 
