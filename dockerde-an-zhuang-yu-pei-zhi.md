@@ -4,7 +4,7 @@ Docker利用的操作系统提供的虚拟化功能，而操作系统的虚拟�
 
 可以通过查询你的CPU官网或者通过搜索引擎搜索你的CPU参数，AMD的CPU需要支持AMD-v技术，Intel的CPU需要支持VT-x技术。下图为我机器CPU参数查询结果，看到高级技术部分VT-x技术为Yes，代表支持该技术。
 
-
+![](/assets/160a6bc083b66eab.jpg)
 
 \*\*确认CPU支持该功能后，请在BIOS的高级设置中开启它\*\*。由于每台机器BIOS页面不同，需要读者认真查找对应技术名称并开启。
 
@@ -38,15 +38,17 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 
 3. 选择“Hyper-V”，然后单击“确定”。
 
+![](/assets/160a6bfcab13f18a.jpg)
+
 \#\# 安装
 
-确保满足以上条件之后，进入官方下载页面后，选择其中过一个版本进行下载。官方下载页面：\[[https://store.docker.com/editions/community/docker-ce-desktop-windows\]\(https://store.docker.com/editions/community/docker-ce-desktop-windows\](https://store.docker.com/editions/community/docker-ce-desktop-windows]%28https://store.docker.com/editions/community/docker-ce-desktop-windows%29\)
+确保满足以上条件之后，进入官方下载页面后，选择其中过一个版本进行下载。官方下载页面：\[[https://store.docker.com/editions/community/docker-ce-desktop-windows\]\(https://store.docker.com/editions/community/docker-ce-desktop-windows](https://store.docker.com/editions/community/docker-ce-desktop-windows]%28https://store.docker.com/editions/community/docker-ce-desktop-windows%29\)\)
 
-!\[\]\([https://user-gold-cdn.xitu.io/2017/12/30/160a68f15f09bd98?w=673&h=915&f=jpeg&s=192539\](https://user-gold-cdn.xitu.io/2017/12/30/160a68f15f09bd98?w=673&h=915&f=jpeg&s=192539%29\)
+![](/assets/160a68f15f09bd98.jpg)
 
 下载后双击运行，点击“accept”和“next”就可以了，安装完成后会弹出欢迎界面。
 
-!\[\]\([https://user-gold-cdn.xitu.io/2017/12/30/160a6b08c87564e8?w=358&h=823&f=png&s=170590\](https://user-gold-cdn.xitu.io/2017/12/30/160a6b08c87564e8?w=358&h=823&f=png&s=170590%29\)
+![](/assets/160a6b08c87564e8.jpg)
 
 如果任务栏出现白色（红色代表启动失败或停止）的驮着许多集装箱的小鲸鱼，代表Docker服务已经启动了！
 
@@ -56,15 +58,13 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 
 在弹出页面点击“Shared Drives”，选择一个你想与容器共享的目录（可以选择你用来放置代码的磁盘），我这里选择的是C盘。
 
-!\[\]\([https://user-gold-cdn.xitu.io/2017/12/30/160a6db423039147?w=833&h=542&f=jpeg&s=92974\](https://user-gold-cdn.xitu.io/2017/12/30/160a6db423039147?w=833&h=542&f=jpeg&s=92974%29\)
-
-点击右下角“Apply”后Docker开始重启。
+![](/assets/160a6db423039147.jpg)点击右下角“Apply”后Docker开始重启。
 
 \*\*这一步不是必须的，但是国内用户为了更流畅的体验，最好设置一下镜像仓库（你懂的）\*\*：
 
 然后点击“Daemon”，把右边的Basic开关打开，在下面的json对象的“registry-mirrors”数组中输入一个国内的镜像地址，这里我输入的是阿里云的地址（可以在\[阿里云开发者平台\]\([https://dev.aliyun.com\)上申请）：\`https://cpnpza13.mirror.aliyuncs.com\`。主要用来加速镜像下载。](https://dev.aliyun.com%29上申请）：`https://cpnpza13.mirror.aliyuncs.com`。主要用来加速镜像下载。)
 
-!\[\]\([https://user-gold-cdn.xitu.io/2017/12/30/160a6db52c128277?w=829&h=538&f=jpeg&s=102885\](https://user-gold-cdn.xitu.io/2017/12/30/160a6db52c128277?w=829&h=538&f=jpeg&s=102885%29\)
+![](/assets/160a6db52c128277.jpg)
 
 忽略红色警告文字，依然点击右下角“Apply”按钮重启Docker。
 
