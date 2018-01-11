@@ -46,9 +46,9 @@ Docker是一个跨平台的开源容器引擎，可以用它来构建、管理�
 
 \* 让应用实现伸缩、灰度部署、自愈等高级功能......
 
------
+---
 
-\[本书地址\]\([https://yalishizhude.gitbooks.io/docker-book/\](https://yalishizhude.gitbooks.io/docker-book/%29\)
+本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\)
 
 更多web技术内容请关注公众号“web学习社”
 
