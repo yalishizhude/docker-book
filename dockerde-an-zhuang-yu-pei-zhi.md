@@ -1,6 +1,6 @@
 # 安装必要条件
 
-Docker利用的操作系统提供的虚拟化功能，而操作系统的虚拟化功能需要硬件——CPU的支持，所以安装Docker前请确认你的CPU支持并开启了虚拟化技术。所以第一步你需要\*\*确认你的CPU是否支持虚拟化功能\*\*。
+Docker利用的操作系统提供的虚拟化功能，而操作系统的虚拟化功能需要硬件——CPU的支持，所以安装Docker前请确认你的CPU支持并开启了虚拟化技术。
 
 可以通过查询你的CPU官网或者通过搜索引擎搜索你的CPU参数，AMD的CPU需要支持AMD-v技术，Intel的CPU需要支持VT-x技术。下图为我机器CPU参数查询结果，看到高级技术部分VT-x技术为Yes，代表支持该技术。
 
@@ -122,7 +122,7 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 
 ---
 
-本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\)
+本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29%29\)
 
 更多web技术内容请关注公众号“web学习社”
 
