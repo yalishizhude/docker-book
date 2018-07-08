@@ -30,7 +30,7 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 
 \* 系统已开启Hyper-V功能。
 
-启动Hypver-V功能操作如下：
+启动Hyper-V功能操作如下：
 
 1. 右键单击 Windows 按钮并选择“应用和功能”。
 
@@ -93,6 +93,8 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 \*\*这一步不是必须的，但是国内用户为了更流畅的体验，最好设置一下镜像仓库（你懂的）\*\*：
 
 \`vi /etc/docerk/daemon.json\`
+
+
 
 \`\`\`
 
