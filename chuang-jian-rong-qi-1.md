@@ -1,10 +1,10 @@
 \# 如何利用镜像创建容器
 
-上一节我们拉取了\`nginx\`镜像，但是用它启动容器的时候进程挂起了，这一节我们先来看看如何正确地利用\`nginx\`镜像启动容器。
+上一节我们拉取了\`nginx\`镜像，但是是以前台进程的方式启动的，这意味着我们始终要保持终端运行状态，一旦关闭控制台，容器就会停止运行。如果我们需要容器在后台一直运行，那么需要修改一下启动参数才行。这一节我们就来讲一讲启动容器时的常用参数。
 
 \#\# detach
 
-直接执行\`docker run\`命令看上去毫无反应是因为容器中的nginx进程在容器启动的时候就已经开始执行，不过它并不是在后台执行。所以我们可以添加容器启动参数来让容器在后台运行，这样就不会被阻塞。
+直接执行\`docker run\`命令看上去毫无反应是因为容器中的nginx进程在容器启动的时候就已经开始执行，不过它并不是在后台执行。所以我们可以添加容器启动参数来让容器在后台运行，这样就不会被、情1阻塞。
 
 \`docker run -d nginx\`
 
@@ -62,7 +62,7 @@
 
 ---
 
-本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\)
+本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29%29\)
 
 更多web技术内容请关注公众号“web学习社”
 
