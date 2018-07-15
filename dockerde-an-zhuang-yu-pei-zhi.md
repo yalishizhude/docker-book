@@ -94,15 +94,11 @@ Docker分为两个版本Community Edition（社区版本，免费）和Enterpris
 
 \`vi /etc/docerk/daemon.json\`
 
-
-
 \`\`\`
 
 {
 
-```
-"registry-mirrors": \["https://cpnpza13.mirror.aliyuncs.com"\]
-```
+  "registry-mirrors": \\["https://cpnpza13.mirror.aliyuncs.com"\\]
 
 }
 
