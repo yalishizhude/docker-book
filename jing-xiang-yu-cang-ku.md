@@ -10,7 +10,7 @@
 
 \#\#\# 网页
 
-官方提供给我们的镜像仓库现在叫做\[Docker Hub\]\(\[[https://hub.docker.com/\)，现在被集成到\[Docker\]\(https://hub.docker.com/\)，现在被集成到\[Docker](https://hub.docker.com/%29，现在被集成到[Docker]%28https://hub.docker.com/%29，现在被集成到[Docker)\) Store\]\([https://store.docker.com/search?q=&source=verified&type=image\)中。](https://store.docker.com/search?q=&source=verified&type=image%29中。)
+官方提供给我们提供了公共的镜像仓库，其中官方版镜像的放在\[Docker Store\]\(\)中，社区开发者上传的镜像放在\[Docker Hub\]\(https://hub.docker.com/\)中
 
 登录后会看到类似如下页面（因为Docker Store的页面一直在变，不保证你访问网址看到的页面如图所示），点击上方“Explore”即可查看镜像。
 
@@ -76,7 +76,7 @@ docker进程会下载该镜像到本地，默认下载的是nginx的“latest”
 
 ---
 
-本书地址\[[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\]\([https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)\)
+本书地址：[https://yalishizhude.gitbooks.io/docker-book/](https://yalishizhude.gitbooks.io/docker-book/%29\)
 
 更多web技术内容请关注公众号“web学习社”
 
