@@ -2,7 +2,7 @@
 
 Docker是一个跨平台的开源容器引擎，可以用它来构建、管理、运行容器。
 
-而容器是利用虚拟化技术，\*\*将应用程序（你的代码）和所需运行环境（代码依赖）封装成独立的进程\*\*。
+而容器是利用虚拟化技术，**将应用程序（你的代码）和所需运行环境（代码依赖）封装成独立的进程**。
 
 从Docker这个单词来分析，它在英语中的意思是码头工人，而Docker中运行的容器（container）对应的是集装箱。
 
@@ -32,7 +32,7 @@ Docker是一个跨平台的开源容器引擎，可以用它来构建、管理�
 
 ---
 
-本书地址：[https://yalishizhude.gitbooks.io/docker-book](https://yalishizhude.gitbooks.io/docker-book/%29\)
+本书地址：[https://yalishizhude.gitbooks.io/docker-book](https://yalishizhude.gitbooks.io/docker-book)
 
 更多web技术内容请关注公众号“web学习社”
 
